@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8570471971178093562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8570471971178093559}
+  - component: {fileID: 8570471971178093556}
+  m_Layer: 0
+  m_Name: TextToSpeechTest3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8570471971178093559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570471971178093562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8570471971178093556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570471971178093562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4941d5734671ff41bbf3aeb85979d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToSpeechControl: {fileID: 0}
+  displayText: {fileID: 0}
+  statusText: {fileID: 0}
+  statusAnimator: {fileID: 0}
+  speedText: {fileID: 0}
+  pitchText: {fileID: 0}
+  localeDropdown: {fileID: 0}
+  useAndroidLocale: 1
+  startMessage:
+    id: 
+    defaultLanguage: 10
+    list:
+    - language: 10
+      text: Speaking
+      fontSize: 0
+    - language: 22
+      text: "\u767A\u58F0\u4E2D"
+      fontSize: 0
+  doneMessage:
+    id: 
+    defaultLanguage: 10
+    list:
+    - language: 10
+      text: Finished
+      fontSize: 0
+    - language: 22
+      text: "\u767A\u58F0\u7D42\u4E86"
+      fontSize: 0
+  stopMessage:
+    id: 
+    defaultLanguage: 10
+    list:
+    - language: 10
+      text: Interrupted
+      fontSize: 0
+    - language: 22
+      text: "\u767A\u58F0\u4E2D\u65AD"
+      fontSize: 0
+  ttsAvailableMessage:
+    id: 
+    defaultLanguage: 10
+    list:
+    - language: 10
+      text: Text To Speech is available.
+      fontSize: 0
+    - language: 22
+      text: "\u30C6\u30AD\u30B9\u30C8\u8AAD\u307F\u4E0A\u3052\u304C\u5229\u7528\u3067\u304D\u307E\u3059\u3002"
+      fontSize: 0
+  ttsInitializationError:
+    id: 
+    defaultLanguage: 10
+    list:
+    - language: 10
+      text: Failed to initialize Text To Speech.
+      fontSize: 0
+    - language: 22
+      text: "\u30C6\u30AD\u30B9\u30C8\u8AAD\u307F\u4E0A\u3052\u306E\u521D\u671F\u5316\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002"
+      fontSize: 0
+  ttsLocaleError:
+    id: 
+    defaultLanguage: 10
+    list:
+    - language: 10
+      text: It is a language that can not be used.
+      fontSize: 0
+    - language: 22
+      text: "\u5229\u7528\u3067\u304D\u306A\u3044\u8A00\u8A9E\u3067\u3059\u3002"
+      fontSize: 0
+  ttsSearchButton: {fileID: 0}
+  ttsButton: {fileID: 0}
+  ttsButtonN2: {fileID: 0}
+  OnGooglePlayCheck: {fileID: 0}
+  OnGoogleTTSCheck: {fileID: 0}
+  OnKddiTTSCheck: {fileID: 0}
